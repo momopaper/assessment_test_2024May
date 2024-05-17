@@ -2,7 +2,7 @@
 
 1. PHP 8.0.2
 2. jquery
-3. MySQL 5.7
+3. MySQL 5.7 (port 3307)
 4. Docker
 
 ## Question A instructions
