@@ -13,7 +13,7 @@
 
 ## Question B instructions
 
-# Please refer to question_b folder for explanations and answer (questionB.sql). To generate sample tables for question B, you may follow the instructions below
+### Please refer to question_b folder for explanations and answer (questionB.sql). To generate sample tables for question B, you may follow the instructions below
 
 1. ssh connect to docker ssh
 2. php artisan migrate --path=/database/migrations/assessment_test
