@@ -9,3 +9,7 @@ Based on the query logic, I am pre-assuming it can be splited into 3 parts of fi
 
 By utilizing common table expressions, we can "pre-filter" <jobs>'s id by splitting the query into few smaller queries before we start to retrieve the actual table data.
 In the end of query, by using UNION join to eliminate possible duplicated ids and finally fetch the final result set.
+
+You may further plan and design index in relevant tables to improve performance further.
+
+## Please refer to questionB.sql for improved query
