@@ -33,7 +33,6 @@ RUN docker-php-ext-install gd
 
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-RUN composer install
 
 # Copy env file from example
 RUN cp .env.example .env
@@ -50,6 +49,9 @@ COPY --chown=www:www . /var/www
 
 # Change current user to www
 USER www
+
+# Run Composer
+RUN composer install
 
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
