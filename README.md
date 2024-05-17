@@ -12,4 +12,4 @@ Question B instructions
 
 1. ssh connect to docker ssh
 2. php artisan migrate --path=/database/migrations/assessment_test
-3. php artisan db:seed --class=DatabaseSeeder
+3. php artisan db:seed --class=DatabaseSeeder , this command will create 100 sets of data, you may want to run few times to further test high load data retrieval
